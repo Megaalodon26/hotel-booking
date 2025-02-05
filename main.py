@@ -50,7 +50,8 @@ class CreditCard:
             return False
 
 
-class SecureCreditCard:
+class SecureCreditCard(CreditCard):
+    def authenticate(self):
 
 
 
